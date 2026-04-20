@@ -41,7 +41,7 @@ function Dashboard() {
     return (
         <div>
             <nav className="nav">
-                <Link to="/" className="nav-logo">Zirku</Link>
+                <Link to="/" className="nav-logo">Identity</Link>
                 <div className="nav-links">
                     <Link to="/">Home</Link>
                     <a href="#" onClick={(e) => { e.preventDefault(); logout(); }}>Logout</a>

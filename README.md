@@ -1,6 +1,6 @@
-# Zirku App
+# Identity App
 
-Aplicação React com autenticação OAuth2/OpenID Connect integrada com o servidor Zirku/OpenIddict.
+Aplicação React com autenticação OAuth2/OpenID Connect integrada com o servidor Identity/OpenIddict.
 
 ## Características
 
@@ -18,7 +18,7 @@ Aplicação React com autenticação OAuth2/OpenID Connect integrada com o servi
 ## Pré-requisitos
 
 - Node.js 18+
-- Servidor Zirku a correr em https://localhost:44319
+- Servidor Identity a correr em https://localhost:44319
 
 ## Instalação
 

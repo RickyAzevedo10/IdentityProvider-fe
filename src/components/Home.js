@@ -12,7 +12,7 @@ function Home() {
     return (
         <div>
             <nav className="nav">
-                <Link to="/" className="nav-logo">Zirku</Link>
+                <Link to="/" className="nav-logo">Identity</Link>
                 <div className="nav-links">
                     {user ? (
                         <>
@@ -30,7 +30,7 @@ function Home() {
             </nav>
             <div className="container">
                 <div className="hero">
-                    <h1>Zirku</h1>
+                    <h1>Identity</h1>
                     <p>OAuth2/OpenID Connect demo with OpenIddict and React</p>
                 </div>
                 <div className="actions">
@@ -40,7 +40,7 @@ function Home() {
                         </Link>
                     ) : (
                         <button className="btn btn-primary" onClick={login}>
-                            Sign In with Zirku
+                            Sign In with Identity
                         </button>
                     )}
                 </div>
